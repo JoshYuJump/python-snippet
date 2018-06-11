@@ -14,6 +14,6 @@ partern = '<li class=.+?><h2><a href="(.+?)".+?>'
 
 i = 0
 for match in re.findall(partern, content):
-	print match
-	i += 1
-	urllib.urlretrieve(match, 'd_' + str(i) + '.html')
+    print match
+    i += 1
+    urllib.urlretrieve(match, 'd_' + str(i) + '.html')
