@@ -102,15 +102,3 @@ if __name__ == '__main__':
 
     # collect top catetory
     get_top_category()
-
-
-        
-
-
-
-
-
-
-
-
-
